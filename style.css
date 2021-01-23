@@ -5,6 +5,20 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: rgb(3, 104, 3);
+    color: #036803;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    
+    border: 3px solid #4b9209;
+    border-radius: 10px;
+    text-align: center;
+    padding: 5px;
+    background-color: greenyellow;
+    box-shadow: 5px 5px 7px #aaa;
+}
+
+#pts{
+    font-size: 25px;
 }

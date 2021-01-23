@@ -1,5 +1,7 @@
 let canvas = document.getElementById("snake");
 let context = canvas.getContext("2d");
+let placar = document.getElementById("placar");
+let pontos = 0;
 let box = 32;
 let snake = [];
 snake[0] = {
@@ -76,6 +78,8 @@ function iniciarJogo(){
     }else{
         food.x = Math.floor(Math.random() * 15 + 1) * box,
         food.y = Math.floor(Math.random() * 15 + 1) * box
+        pontos++;
+        placar.innerText= pontos;
     }
 
 
