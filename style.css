@@ -11,17 +11,16 @@ body{
     background-image: url(./img/snake-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: 'Press Start 2P', cursive;
 }
 
 h1{
-    
     border: 3px solid #4b9209;
     border-radius: 10px;
     text-align: center;
     padding: 6px;
     background-color: greenyellow;
     box-shadow: 5px 5px 7px rgb(59, 199, 4);
-    font-family: 'Press Start 2P', cursive;
 }
 
 #pts{
@@ -29,4 +28,35 @@ h1{
     background-color: white;
     padding: 5px;
     border-radius: 5px;
+}
+
+.gameover{
+    display:none;
+    position: absolute;
+    border: 1px solid black;
+    padding: 30px 15px 30px;
+    width: 400px;
+    text-align: center;
+    background-color: #444;
+    color: white;
+}
+
+.ativo{
+    display:block;
+}
+
+.btn{
+    border-radius: 5px;
+    background-color: #999;
+    color: black;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    transition: all .1s ease;
+}
+
+.btn:hover{
+    background-color: rgb(79, 153, 79);
+    cursor: pointer;
+    color: white;
 }
